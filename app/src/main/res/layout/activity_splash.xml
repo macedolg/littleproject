@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    tools:context=".splash">
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="406dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="31dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lay1">
+
+        <ImageView
+            android:id="@+id/imgvw_logo"
+            android:layout_width="match_parent"
+            android:layout_height="251dp"
+            android:src="@drawable/logo3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/lay4"
+        app:layout_constraintEnd_toEndOf="@id/lay2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lay2">
+
+        <TextView
+            android:id="@+id/txtvw1"
+            android:layout_width="824dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtvw_name"
+            android:textColor="#05BCCF"
+            android:textSize="60sp"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="467dp"
+            tools:text="@string/txtvw_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay4"
+        android:layout_width="413dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lay3">
+
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="402dp"
+            android:layout_height="88dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="277dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="31dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/lay2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtvw_ola"
+            android:layout_width="284dp"
+            android:layout_height="124dp"
+            android:layout_weight="1"
+            android:text="@string/txtvw_ola"
+            android:textColor="#05BCCF"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LITTLEPROJECT</string>
+    <string name="back1">background tela1</string>
+    <string name="back2">background tela2</string>
+    <string name="back3">background tela3</string>
+    <string name="back4">background tela4</string>
+    <string name="back5">background tela5</string>
+    <string name="back6">background tela6</string>
+    <string name="lay1">layout tela splash</string>
+    <string name="lay2">layout tela splash</string>
+    <string name="lay3">layout tela splash</string>
+    <string name="lay4">layout tela splash</string>
+    <string name="imgvw_logo">logo tela de splash</string>
+    <string name="txtvw_name">Little Project</string>
+    <string name="txtvw_name2">Little Project</string>
+    <string name="prgsbar1">Progress Bar</string>
+    <string name="imgbtn_info">Info</string>
+    <string name="imgbtn_colaboradores">Info</string>
+    <string name="imgbtn_loc">Info</string>
+    <string name="imgbtn_mansao">Sobre a mansao</string>
+    <string name="txtvw_ola">OLÁ, BEM VINDO!</string>
+
+
+</resources>
