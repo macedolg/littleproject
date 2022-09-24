@@ -7,13 +7,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class menu extends AppCompatActivity {
 
-    ImageButton imageButton1;
-    ImageButton imageButton2;
-    ImageButton imageButton3;
-    ImageButton imageButton4;
+    ImageView imageButton1;
+    ImageView imageButton2;
+    ImageView imageButton3;
+    ImageView imageButton4;
 
 
 
@@ -36,12 +37,12 @@ public class menu extends AppCompatActivity {
             }
         });
 
-        imageButton2 = findViewById(R.id.imgbtn_mansao);
+        imageButton2 = findViewById(R.id.imgbtn_sensor);
 
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), mansao.class);
+                Intent intent = new Intent(getApplicationContext(), sensor.class);
                 startActivity(intent);
             }
         });

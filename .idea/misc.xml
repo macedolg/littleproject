@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LG/AndroidStudioProjects/APP_PAM_LITTLEPROJECT/app/src/main/res/layout/activity_colaboradores.xml" value="0.33" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/APP_PAM_LITTLEPROJECT/app/src/main/res/layout/activity_contato.xml" value="0.33695652173913043" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/APP_PAM_LITTLEPROJECT/app/src/main/res/layout/activity_info.xml" value="0.25" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/APP_PAM_LITTLEPROJECT/app/src/main/res/layout/activity_loc.xml" value="0.25" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/APP_PAM_LITTLEPROJECT/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/APP_PAM_LITTLEPROJECT/app/src/main/res/layout/activity_sensor.xml" value="0.33" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/APP_PAM_LITTLEPROJECT/app/src/main/res/layout/activity_splash.xml" value="0.22" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.2095" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/app/src/main/res/drawable/arrow.xml" value="0.2085" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2865" />

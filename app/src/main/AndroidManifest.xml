@@ -17,7 +17,7 @@
         android:theme="@style/Theme.LITTLEPROJECT"
         tools:targetApi="31">
         <activity
-            android:name=".mansao"
+            android:name=".sensor"
             android:exported="false" />
         <activity
             android:name=".loc"
