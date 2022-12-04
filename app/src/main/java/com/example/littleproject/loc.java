@@ -11,6 +11,7 @@ import android.widget.ImageView;
 public class loc extends AppCompatActivity {
 
     Button button;
+    Button button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,5 +29,14 @@ public class loc extends AppCompatActivity {
             }
         });
 
+         button2 = findViewById(R.id.btnshared1);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), login.class);
+                startActivity(intent);
+            }
+        });
     }
 }

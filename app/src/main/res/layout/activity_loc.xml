@@ -47,8 +47,8 @@
 
     <Button
         android:id="@+id/btn_maps"
-        android:layout_width="186dp"
-        android:layout_height="200dp"
+        android:layout_width="199dp"
+        android:layout_height="125dp"
         android:background="#2161FF "
         android:text="@string/txt_veja"
         android:textColor="#F5F5F5"
@@ -58,5 +58,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.634" />
+
+    <Button
+        android:id="@+id/btnshared1"
+        android:layout_width="146dp"
+        android:layout_height="63dp"
+        android:background="#2161FF "
+        android:text="@string/txt_shared1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
 
 </android.support.constraint.ConstraintLayout>

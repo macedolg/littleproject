@@ -31,14 +31,6 @@ public class colaboradores extends AppCompatActivity {
             }
         });
 
-        imageButton2 = findViewById(R.id.imgbtn_toguro);
-
-        imageButton2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/toguro/")));
-            }
-        });
 
         imageButton3 = findViewById(R.id.imgbtn_mansao);
 
@@ -48,16 +40,6 @@ public class colaboradores extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/c/MANS%C3%83OMAROMBA")));
             }
         });
-
-        imageButton4 = findViewById(R.id.imgbtn_renato);
-
-        imageButton4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/renato_cariani/")));
-            }
-        });
-
 
 
 

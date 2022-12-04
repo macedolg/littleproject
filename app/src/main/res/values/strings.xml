@@ -9,7 +9,7 @@
     <string name="txtvw_mansao">MANSÃO MAROMBA</string>
     <string name="txtvw_renato">RENATO CARIANI</string>
     <string name="txtvw_ola">OLÁ, BEM VINDO(A)!</string>
-    <string name="txtvw_sobre">Nós somos a filial da Mansão Maromba Little Project, temos como objetivo apresentar o mundo da musculação e insentivar a pratica de exercícios fisicos.</string>
+    <string name="txtvw_sobre">Nós somos a filial da Mansão Maromba Little Project, temos como objetivo apresentar o mundo da musculação e incentivar a pratica de exercícios fisicos.</string>
     <string name="txt_gerente">Gerentes</string>
     <string name="txtvw_Contato">Contato</string>
     <string name="txt_supino1">Aproxime para levantar o supino</string>
@@ -18,6 +18,11 @@
     <string name="txt_como">COMO CHEGAR NA ACADEMIA?</string>
     <string name="txt_veja">VEJA</string>
     <string name="txt_colab">Colaboradores</string>
-
-
+    <string name="txt_shared1">Se cadastre aqui</string>
+    <string name="txt_email1">Insira seu email</string>
+    <string name="txt_idade1">Insira sua idade</string>
+    <string name="txt_nome1">Insira seu nome</string>
+    <string name="txt_cadastre">Cadastrar</string>
+    <string name="txt_mostrar">Mostre</string>
+    <string name="txt_info">Informações</string>
 </resources>
